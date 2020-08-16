@@ -235,13 +235,13 @@ body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
     background-image: url("illustration.jpg");
-    background-size: 160vw 100vh;
+    background-size: 160vw 110vh;
     background-repeat: no-repeat;
     overflow-x: hidden;
   }
   .search {
     width: 70vw;
-    margin: 5vh 5vw 5vh 15vw;
+    margin: 3vh 5vw 5vh 15vw;
     color: #FAFAFA;
     -webkit-animation: slidein_search_mobile 1s;
             animation: slidein_search_mobile 1s;
@@ -256,7 +256,7 @@ body {
       margin-top: -30vh;
     }
     to {
-      margin-top: 5vh;
+      margin-top: 3vh;
     }
   }
   @keyframes slidein_search_mobile {
@@ -265,7 +265,7 @@ body {
       margin-top: -30vh;
     }
     to {
-      margin-top: 5vh;
+      margin-top: 3vh;
     }
   }
   .search button {
@@ -280,12 +280,12 @@ body {
     font-size: 2.5rem;
   }
   .main-display .description {
-    font-size: 1.5rem;
-    margin-top: 1.7vh;
+    font-size: 1.3rem;
+    margin-top: 1.5vh;
   }
   .main-display .temperature {
     font-size: 2.5rem;
-    margin-top: 3vh;
+    margin-top: 2.5vh;
     color: #101010;
   }
   @-webkit-keyframes slidein_main_mobile {

@@ -165,14 +165,14 @@ body {
         font-family: 'Poppins', sans-serif;
         text-align: center;
         background-image: $background-image;
-        background-size: 160vw 100vh;
+        background-size: 160vw 110vh;
         background-repeat: no-repeat;
         overflow-x: hidden;
     }
 
     .search {
         width: 70vw;
-        margin: 5vh 5vw 5vh 15vw;
+        margin: 3vh 5vw 5vh 15vw;
         color: $color-whitish;
         animation: slidein_search_mobile 1s;
         input {
@@ -187,7 +187,7 @@ body {
             margin-top: -30vh;
         }
         to {
-            margin-top: 5vh;
+            margin-top: 3vh;
         }
     }
 
@@ -202,12 +202,12 @@ body {
             font-size: 2.5rem;
         }
         .description {
-            font-size: 1.5rem;
-            margin-top: 1.7vh;
+            font-size: 1.3rem;
+            margin-top: 1.5vh;
         }
         .temperature {
             font-size: 2.5rem;
-            margin-top: 3vh;
+            margin-top: 2.5vh;
             color: $color-blackish;
         }
     }
