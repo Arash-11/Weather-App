@@ -26,7 +26,7 @@ body {
   color: #101010;
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  background-image: url("https://images.unsplash.com/photo-1517495306984-f84210f9daa8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
+  background-image: url("illustration.jpg");
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
 }
@@ -54,7 +54,7 @@ body {
   width: 17vw;
   margin-top: 3vh;
   border: none;
-  color: #101010;
+  color: #FAFAFA;
   border-bottom: solid 3px #FAFAFA;
   background: none;
   font-family: 'Poppins', sans-serif;
@@ -68,21 +68,25 @@ body {
 .search input::-webkit-input-placeholder {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
+  color: #FAFAFA;
 }
 
 .search input:-ms-input-placeholder {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
+  color: #FAFAFA;
 }
 
 .search input::-ms-input-placeholder {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
+  color: #FAFAFA;
 }
 
 .search input::placeholder {
   font-family: 'Poppins', sans-serif;
   font-size: 1rem;
+  color: #FAFAFA;
 }
 
 @-webkit-keyframes slidein_search {
@@ -172,8 +176,9 @@ body {
 }
 
 .secondary-display {
+  color: #FAFAFA;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin-top: 15vh;
   -webkit-animation: slidein_second 1.5s;
           animation: slidein_second 1.5s;
@@ -225,17 +230,18 @@ body {
             align-items: center;
   }
   body {
-    padding: 5vw 7vw;
+    padding: 2vw 7vw;
     color: #101010;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    background-image: url("https://images.unsplash.com/photo-1517495306984-f84210f9daa8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80");
-    background-size: 100vw 160vh;
+    background-image: url("illustration.jpg");
+    background-size: 160vw 100vh;
     background-repeat: no-repeat;
+    overflow-x: hidden;
   }
   .search {
     width: 70vw;
-    margin: 10vh 5vw 5vh 15vw;
+    margin: 5vh 5vw 5vh 15vw;
     color: #FAFAFA;
   }
   .search input {
@@ -244,6 +250,32 @@ body {
   }
   .search button {
     margin-left: 3vw;
+  }
+  .main-display {
+    margin-top: 5vh;
+  }
+  .main-display h1 {
+    font-size: 2.5rem;
+  }
+  .main-display .description {
+    font-size: 1.5rem;
+    margin-top: 2vh;
+  }
+  .main-display .temperature {
+    font-size: 2.5rem;
+    margin-top: 4vh;
+    color: #101010;
+  }
+  .secondary-display {
+    color: #FAFAFA;
+    font-size: 1.3rem;
+    margin-top: 5vh;
+  }
+  .secondary-display p {
+    margin-bottom: 0.5vh;
+  }
+  .secondary-display .font-bold {
+    margin-bottom: 2vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
