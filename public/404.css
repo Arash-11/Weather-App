@@ -117,10 +117,14 @@ input::placeholder {
     input {
         width: 55vw;
         margin-bottom: 10vh;
+        color: #000;
     }
 
     input::placeholder {
         color: #fff;
     }
+
+    .search button {
+        color: #000;
     
 }
