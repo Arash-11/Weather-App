@@ -126,5 +126,6 @@ input::placeholder {
 
     .search button {
         color: #000;
-    
+        transform: scale(1.2);
+    }
 }
