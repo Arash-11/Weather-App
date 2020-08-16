@@ -174,9 +174,20 @@ body {
         width: 70vw;
         margin: 5vh 5vw 5vh 15vw;
         color: $color-whitish;
+        animation: slidein_search_mobile 1s;
         input {
             width: 50vw;
             color: $color-whitish;
+        }
+    }
+
+    @keyframes slidein_search_mobile {
+        from {
+            visibility: hidden;
+            margin-top: -30vh;
+        }
+        to {
+            margin-top: 5vh;
         }
     }
 
@@ -185,30 +196,52 @@ body {
     }
 
     .main-display {
-        margin-top: 5vh;
+        margin-top: 3vh;
+        animation: slidein_main_mobile 1.5s; 
         h1 {
             font-size: 2.5rem;
         }
         .description {
             font-size: 1.5rem;
-            margin-top: 2vh;
+            margin-top: 1.7vh;
         }
         .temperature {
             font-size: 2.5rem;
-            margin-top: 4vh;
+            margin-top: 3vh;
             color: $color-blackish;
+        }
+    }
+
+    @keyframes slidein_main_mobile {
+        from {
+            visibility: hidden;
+            margin-top: 30vh;
+        }
+        to {
+            margin-top: 3vh;
         }
     }
 
     .secondary-display {
         color: $color-whitish;
         font-size: 1.3rem;
-        margin-top: 5vh;
+        margin-top: 3.5vh;
+        animation: slidein_second_mobile 1.5s; 
         p {
             margin-bottom: 0.5vh;
         }
         .font-bold {
             margin-bottom: 2vh;
+        }
+    }
+
+    @keyframes slidein_second_mobile {
+        from {
+            visibility: hidden;
+            margin-top: 30vh;
+        }
+        to {
+            margin-top: 3.5vh;
         }
     }
 

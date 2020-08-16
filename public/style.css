@@ -243,39 +243,99 @@ body {
     width: 70vw;
     margin: 5vh 5vw 5vh 15vw;
     color: #FAFAFA;
+    -webkit-animation: slidein_search_mobile 1s;
+            animation: slidein_search_mobile 1s;
   }
   .search input {
     width: 50vw;
     color: #FAFAFA;
   }
+  @-webkit-keyframes slidein_search_mobile {
+    from {
+      visibility: hidden;
+      margin-top: -30vh;
+    }
+    to {
+      margin-top: 5vh;
+    }
+  }
+  @keyframes slidein_search_mobile {
+    from {
+      visibility: hidden;
+      margin-top: -30vh;
+    }
+    to {
+      margin-top: 5vh;
+    }
+  }
   .search button {
     margin-left: 3vw;
   }
   .main-display {
-    margin-top: 5vh;
+    margin-top: 3vh;
+    -webkit-animation: slidein_main_mobile 1.5s;
+            animation: slidein_main_mobile 1.5s;
   }
   .main-display h1 {
     font-size: 2.5rem;
   }
   .main-display .description {
     font-size: 1.5rem;
-    margin-top: 2vh;
+    margin-top: 1.7vh;
   }
   .main-display .temperature {
     font-size: 2.5rem;
-    margin-top: 4vh;
+    margin-top: 3vh;
     color: #101010;
+  }
+  @-webkit-keyframes slidein_main_mobile {
+    from {
+      visibility: hidden;
+      margin-top: 30vh;
+    }
+    to {
+      margin-top: 3vh;
+    }
+  }
+  @keyframes slidein_main_mobile {
+    from {
+      visibility: hidden;
+      margin-top: 30vh;
+    }
+    to {
+      margin-top: 3vh;
+    }
   }
   .secondary-display {
     color: #FAFAFA;
     font-size: 1.3rem;
-    margin-top: 5vh;
+    margin-top: 3.5vh;
+    -webkit-animation: slidein_second_mobile 1.5s;
+            animation: slidein_second_mobile 1.5s;
   }
   .secondary-display p {
     margin-bottom: 0.5vh;
   }
   .secondary-display .font-bold {
     margin-bottom: 2vh;
+  }
+  @-webkit-keyframes slidein_second_mobile {
+    from {
+      visibility: hidden;
+      margin-top: 30vh;
+    }
+    to {
+      margin-top: 3.5vh;
+    }
+  }
+  @keyframes slidein_second_mobile {
+    from {
+      visibility: hidden;
+      margin-top: 30vh;
+    }
+    to {
+      margin-top: 3.5vh;
+    }
   }
 }
 /*# sourceMappingURL=style.css.map */

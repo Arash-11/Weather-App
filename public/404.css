@@ -96,6 +96,7 @@ input::placeholder {
     h1 {
         margin-bottom: 3vh;
         width: 80vw;
+        font-size: 1.3rem;
     }
 
     .error {
@@ -105,7 +106,7 @@ input::placeholder {
 
     .search {
         width: 70vw;
-        margin-top: 5vh;
+        margin-top: 10vh;
         margin-left: 15vw;
     }
     
@@ -125,7 +126,7 @@ input::placeholder {
     }
 
     .search button {
-        color: #000;
+        color: #fff;
         transform: scale(1.2);
     }
 }
