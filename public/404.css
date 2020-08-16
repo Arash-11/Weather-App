@@ -90,21 +90,33 @@ input::placeholder {
     body {
         background-size: 160vw 100vh;
         background-repeat: no-repeat;
-        overflow-x: hidden;
+        overflow: hidden;
+    }
+
+    h1 {
+        margin-bottom: 3vh;
+        width: 80vw;
     }
 
     .error {
-        margin-top: 5vh;
+        margin-top: 3vh;
+        font-size: 3rem;
     }
 
     .search {
         width: 70vw;
+        margin-top: 5vh;
         margin-left: 15vw;
+    }
+    
+    label {
+        margin-top: 5vh;
+        font-size: 1.5rem;
     }
 
     input {
         width: 55vw;
-        margin-bottom: 15vh;
+        margin-bottom: 10vh;
     }
 
     input::placeholder {
