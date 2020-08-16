@@ -90,11 +90,11 @@ input::placeholder {
     body {
         background-size: 160vw 100vh;
         background-repeat: no-repeat;
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
     .error {
-        margin-top: 7vh;
+        margin-top: 5vh;
     }
 
     .search {
