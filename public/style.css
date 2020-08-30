@@ -23,10 +23,10 @@ body {
 
 body {
   padding: 5vw 10vw 5vw 7vw;
-  color: #101010;
+  color: #FAFAFA;
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  background-image: url("illustration.jpg");
+  background-image: url("https://images.unsplash.com/photo-1497105339525-6b824c4ac45c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyOTEzNH0&auto=format&fit=crop&w=750&q=80");
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
 }
@@ -122,7 +122,7 @@ body {
 }
 
 .search button:focus {
-  outline: 2px solid #101010;
+  outline: 2px solid #FAFAFA;
 }
 
 .search button:active {
@@ -231,10 +231,10 @@ body {
   }
   body {
     padding: 2vw 7vw;
-    color: #101010;
+    color: #FAFAFA;
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    background-image: url("illustration.jpg");
+    background-image: url("https://images.unsplash.com/photo-1497105339525-6b824c4ac45c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyOTEzNH0&auto=format&fit=crop&w=750&q=80");
     background-size: 160vw 110vh;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -286,7 +286,7 @@ body {
   .main-display .temperature {
     font-size: 2.5rem;
     margin-top: 2.5vh;
-    color: #101010;
+    color: #FAFAFA;
   }
   @-webkit-keyframes slidein_main_mobile {
     from {
